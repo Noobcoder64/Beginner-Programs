@@ -111,6 +111,11 @@ public class Main {
 		System.out.println("104. Comma Separated (Streams)");
 		System.out.println("105. Ceaser Cipher (Streams)");
 		System.out.println("106. Longest Palindrome in word (Streams)");
+		System.out.println("107. Longest Common Sequence");
+		System.out.println("108. Largest Prime Factor");
+		System.out.println("109. BufferedWriter and BufferedReader");
+		System.out.println("110. PrintWriter");
+		System.out.println("111. Implement Graphs");
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter program number: ");

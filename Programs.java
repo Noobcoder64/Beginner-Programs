@@ -1,6 +1,11 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.sql.Connection;
@@ -1708,6 +1713,47 @@ public class Programs {
 		if (number > 2) largestPrimeFactor = number;
 		
 		System.out.println("Largest Prime Factor: " + largestPrimeFactor);
+	}
+	
+	static void Program109() throws IOException {
+		// File file = new File("buffered.txt");
 		
+		BufferedWriter writer = new BufferedWriter(new FileWriter("textfiles/buffered.txt"));
+		
+		writer.write("Hello");
+		writer.newLine();
+		writer.append("A");
+		writer.append("B");
+		writer.append("C");
+		
+		writer.close();
+		
+		BufferedReader reader = new BufferedReader(new FileReader("textfiles/buffered.txt"));
+		
+		String line;
+		while ((line = reader.readLine()) != null) {
+			System.out.println(line);
+		}
+		
+		reader.close();
+	}
+	
+	static void Program110() throws FileNotFoundException {
+		PrintWriter writer = new PrintWriter("textfiles/printwriter.txt");
+		
+		writer.println("Hello");
+		writer.print("A");
+		writer.print("B");
+		writer.print("C");
+		
+		writer.close();
+		
+		Scanner reader = new Scanner(new File("textfiles/printwriter.txt"));
+		
+		while (reader.hasNext()) {
+			System.out.println(reader.nextLine());
+		}
+		
+		reader.close();
 	}
 }	
