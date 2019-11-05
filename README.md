@@ -1,11 +1,17 @@
 # Beginner-Programs
 Java
-1. Hello Name
-2. Sum
-3. Greater Number"
+
+A large collection of programs written by me to develop fundamental Java skills.
+Mostly contains to solution of exercises from the Java MOOC course: https://moocfi.github.io/courses/2013/programming-part-1/ .
+Also contains additional programs covering some commonly used useful Java APIs and algorithms.
+
+List of the programs: *Titles may make no sense*
+1. Hello Name (Print your name)
+2. Sum (Find sum)
+3. Greater Number
 4. Ducky (String Equals)
 5. Drive (Logical Operators)
-6. Ducky to exit
+6. Ducky to exit (Lopps)
 7. Ducky to exit (Break)
 8. More Loops
 9. Lower Upper Limit
