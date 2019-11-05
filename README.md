@@ -114,3 +114,5 @@ Practicing to code continuously allowed me to write code more fluently with less
 104. Comma Separated (Streams)
 105. Ceaser Cipher (Streams)
 106. Longest Palindrome in word (Streams)
+107. Longest Common Sequence
+108. Largest Prime Factor
