@@ -1,11 +1,12 @@
 # Beginner-Programs
-Java
+
+Programming Language: Java
 
 A large collection of programs written by me to develop fundamental Java skills.
 Mostly contains to solution of exercises from the Java MOOC course: https://moocfi.github.io/courses/2013/programming-part-1/ .
 Also contains additional programs covering some commonly used useful Java APIs and algorithms.
 
-List of the programs: *Titles may make no sense*
+## List of the programs: *Titles may make no sense*
 1. Hello Name (Print your name)
 2. Sum (Find sum)
 3. Greater Number
