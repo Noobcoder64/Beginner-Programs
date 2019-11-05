@@ -1,10 +1,11 @@
 # Beginner-Programs
 
-Programming Language: Java
+##### Programming Language: Java
 
-A large collection of programs written by me to develop fundamental Java skills.
+A large collection of programs written by me so far to develop fundamental Java skills.
 Mostly contains to solution of exercises from the Java MOOC course: https://moocfi.github.io/courses/2013/programming-part-1/ .
 Also contains additional programs covering some commonly used and very useful Java APIs and algorithms.
+Practicing to code continuously allowed me to write code more fluently with less error and enhanced my abilty to debug.
 
 ### List of the programs: *Titles may make no sense*
 1. Hello Name (Print your name)
